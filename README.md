@@ -17,6 +17,6 @@ To modify and use the script for detecting other sites area:
 You can access the database of beach area for the coast of Montevideo (1984-2019) at: 10.5281/zenodo.4327667
 
 To use Landsat 5 collection 
-1) change the band var on line #16 to: var bands = ['B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7'];
-2) change the collection var by changing line #29 to: var collection = ee.ImageCollection('LANDSAT/LT5_L1T')
+1) change the band variable on line #16 to: var bands = ['B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7'];
+2) change the collection variable by changing line #29 to: var collection = ee.ImageCollection('LANDSAT/LT5_L1T')
 
