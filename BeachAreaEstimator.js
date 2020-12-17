@@ -47,7 +47,6 @@ var addclass = function(feature) {
 };
 var sandy = pts.map(addclass);
 
-var other = urban.merge(misc);
 var pts = ee.FeatureCollection.randomPoints(other, 100);
 var addclass = function(feature) {
   return feature.set({'class': 1});
@@ -131,14 +130,13 @@ var Areatot = Area.reduceRegion(ee.Reducer.sum(), beachpoly, 30);
 return Areatot;
 }
 
+//create, print and save object with results
 var fe= [ 
-ee.Feature(verde).set('name', 'verde').set('sand', area(verde)).set('veget', vegetation(verde)).set('year', year),
-ee.Feature(rochita).set('name', 'rochita').set('sand',area(rochita)).set('veget', vegetation(rochita)).set('year', year)
+ee.Feature(beach1).set('name', 'beach1').set('sand', area(beach1)).set('veget', vegetation(beach1)).set('year', year),
 ];
-
 print('results', fe);
-var out = ee.FeatureCollection (fe);
 
+var out = ee.FeatureCollection (fe);
 Export.table.toDrive({
   collection: out,
   description: 'L7BeachArea',
