@@ -26,5 +26,5 @@ Puede acceer a la base de datos de area de playa para la costa de Montevideo (19
 
 Para usar la colleccion Landsat 5:
 
-    Cambie la variable "band" en la linea #16 para: var bands = ['B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7'];
+    Cambie la variable "bands" en la linea #16 para: var bands = ['B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7'];
     Modifique la variable "collection" cambiando la linea #29 para: var collection = ee.ImageCollection('LANDSAT/LT5_L1T')
