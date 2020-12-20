@@ -1,7 +1,7 @@
 # Sandy-Beach-Estimator
 This file explains the procedures to estimate beach area based on the Landsat 7 collection using the methodology from Orlando 2021 (unpublished). A step by step modification guide in order to make the script adaptable to any beach follows below. 
 The script works as an example with the intention of making the work replicable, on the example a beach "beach1" of the Montevideo coast is measured, 
-open the "BeachAreaEstimator.js" script copy and paste on Google Earth Engine javascript terminal.
+open the "BeachAreaEstimator.js" script copy and paste on Google Earth Engine (GEE) javascript terminal.
 
 To modify and use the script for detecting other sites area:
 1. Create the beach polygon for "beach1", using the geometry functions of GEE and the satellite visualization, you can use custom beach names if you change "beach1" in the script to fit your beach polygon name
