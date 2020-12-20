@@ -2,7 +2,7 @@
 
 Este documento explica el procedimiento para estimar el area de playa, basado en la coleccion Landsat 7 , usando la metodología de Orlando 2021 (sin publicar).
 A continuación se detalla el procedimiento  paso a paso para adaptar el script a cualquier playa de interés. Este script funciona como un ejemplo con la intención de permitir replicar
-el trabajo, en el ejemplo "beach1" de la costa de Montevideo es medida a traves del script. Copie el texto  de "BeachAreaEstimator.js" y peguelo en la terminal javascript 
+el trabajo, en el ejemplo la playa "beach1" de la costa de Montevideo es medida a traves del script. Copie el texto  de "BeachAreaEstimator.js" y peguelo en la terminal javascript 
 de Google Earth Engine (GEE)
 
 Para modificar y usar el script en esta u otras areas: 
