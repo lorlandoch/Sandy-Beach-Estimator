@@ -83,7 +83,7 @@ var training = mosaic2.clip(roi).sampleRegions({
 });
 
 // Classification
-var classifier = ee.Classifier.randomForest({
+var classifier = ee.Classifier.smileRandomForest({
   numberOfTrees: 1000,
 }).setOutputMode('PROBABILITY');
 
